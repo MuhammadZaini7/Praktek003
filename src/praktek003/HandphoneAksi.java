@@ -16,6 +16,15 @@ public class HandphoneAksi {
         System.out.println(h.getWarna());
         System.out.print("Harganya \t : ");
         System.out.println(h.getHarga());
+        
+        Smartphone s = new Smartphone();
+        s.setMerk("Polytron");
+        s.setWarna("Hitam");
+        s.setHarga(7000000);
+        s.setJenisSmartphone("Desknote");
+        s.cetakInfo();
+        System.out.println("Jenis \t:"+s.getJenisSmartphone());
+        s.throttle();
     }
     
     
