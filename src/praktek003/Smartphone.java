@@ -7,4 +7,14 @@ public class Smartphone extends Handphone{
     void throttle (){
         System.out.println("Juaranya Handphon...");
     }
+
+    public String getJenisSmartphone() {
+        return jenisSmartphone;
+    }
+
+    public void setJenisSmartphone(String jenisSmartphone) {
+        this.jenisSmartphone = jenisSmartphone;
+    }
+    
+    
 }
