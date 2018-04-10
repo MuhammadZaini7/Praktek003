@@ -9,6 +9,13 @@ public class HandphoneAksi {
         h.setHarga(3000000);
          
         h.cetakInfo();
+        
+        System.out.print("Merknya \t : ");
+        System.out.println(h.getMerk());
+        System.out.print("Warnanya \t : ");
+        System.out.println(h.getWarna());
+        System.out.print("Harganya \t : ");
+        System.out.println(h.getHarga());
     }
     
     
